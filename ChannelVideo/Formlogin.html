@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Cannel</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script>
+		function authuser(){
+			var sukses = false;
+			var user = ['User', 'risa'];
+			var passwords = ['user123', 'risa123'];
+
+			var name = document.getElementById("username").value;
+			var pass = document.getElementById("password").value;
+
+			if((name == null || name == '')||(pass == null || pass =='')){
+			alert("Username dan Paswoard tidak boleh kosong");
+			return;
+			}else{
+				for (var i = 0; i<user.length; i++){
+					if(user[i] == name && passwords[i] == pass){
+						document.location.href = "risa_channel.html";
+						sukses = true;
+						break;
+					}
+				}
+				if(!sukses){
+				alert("Username atau Password Salah");
+				}
+			}
+		}
+</script>
+
+</head>
+<body>
+		<div class="kotak_login">
+		<img class="imglog" src="login.png" atl="">
+			<h3 class="tulisan_login">Silahkan Login</h3>
+
+			<form>
+				<label>Username</label>
+				<input type="text" id="username" name="username" class="form_login" placeholder="Username">
+
+				<label>Password</label>
+				<input type="password" id="password" class="form_login" name="password" placeholder="Password">
+				
+
+				<button type="button" onclick="authuser()">Login</button>
+				<!-- <input type="sumbit"  onclick="authuser()" class="tombol_login" name="" placehorder="Password"> -->
+			</form>
+		</div>
+</body>
+</html>

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tugas Layout Video Risa Fitria Melania| The Best Media Uploader</title> 
+       
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/png" /> 
+    
+    <!--Bootstrap and Other Vendors-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">    
+    
+    <!--Theme Styles-->
+    <link rel="stylesheet" href="css/default/style.css">
+    <link rel="stylesheet" href="css/responsive/responsive.css">
+    
+    <!--jQuery-->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    
+    <!--Bootstrap JS-->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!--Dropzone-->
+    <script src="js/dropzone.html"></script>
+    
+    <!--jScroll-->
+    <script src="js/jquery.jscroll.min.js"></script>
+    
+    <!--Magnific Popup-->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    
+    <!--Bootstrap Select-->
+    <script src="vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+    
+    <!--Theme JS-->
+    <script src="js/theme.js"></script>
+<script>
+    $(document).ready(function(){
+        $.ajax({
+                url: 'yt.json',
+                type: 'POST',
+                dataType: "json",
+                success: function handledata(data){
+                    // ke string dari fotmat json
+                    var strjson = JSON.stringify(data);
+
+                    for (var i=0; i<data.content.length; i++){
+                        $('#playlist').append("<div onclick=\"myfunction('"+data.content[i].judul+"')\">"+"<div class='media-left'><a target='iframe' href='https://www.youtube.com/embed/"+data.content[i].id+"'><img src='"+data.content[i].img+"' alt=''><span class='duration'>03:30</span></a></div><div class='media-body'><a target='iframe' href='https://www.youtube.com/embed/"+data.content[i].id+"'><h5>"+data.content[i].judul+"</h5></a><div class='row m0 meta_info views'>34,000 views</div><div class='row m0 meta_info posted'>1 year ago</div></div><br>");
+                    }
+                }
+            });
+        });
+    function myFunction(a) {
+        document.getElementById("judul").innerHTML = a;
+    }
+</script>
+    
+</head>
+<body class="home">
+   
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.jpg" alt="" width="75%"></a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#middle-menu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="middle-menu">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="home_variation_icon"></span>Variasi Pengalaman
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="index.html">Home Page Version 1</a></li>
+                            <li><a href="index2.html">Home Page Version 2</a></li>
+                            <li><a href="index3.html">Home Page Version 3</a></li>
+                            <li><a href="index4.html">Home Page Version 4</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown mega-drop">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="video_menu_icon"></span>Video Menu
+                        </a>
+                        <ul class="dropdown-menu mega-menu">
+                            <li class="row_title">Staf Picked</li>
+                            <li class="videos">
+                                <div class="container">
+                                    <div class="col-sm-3">
+                                        <div class="row inner m0">
+                                            <div class="preview_img">
+                                                <img src="img/resep1.jpg" alt="" class="preview">
+                                                <a href="https://www.youtube.com/embed/hvAn3Xj-PMA" class="play-btn"></a>
+                                            </div>
+                                            <div class="title_row row m0"><a href="hvAn3Xj-PMA">SPICY CHICKEN WINGS</a></div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="row inner m0">
+                                            <div class="preview_img">
+                                                <img src="img/resep2.jpg" alt="" class="preview">
+                                                <a href="DIGeQUsx3eo" class="play-btn"></a>
+                                            </div>
+                                            <div class="title_row row m0"><a href="DIGeQUsx3eo">SPAGHETTI BOLOGNESE</a></div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="row inner m0">
+                                            <div class="preview_img">
+                                                <img src="img/resep3.jpg" alt="" class="preview">
+                                                <a href="hacQdSc7Y28" class="play-btn"></a>
+                                            </div>
+                                            <div class="title_row row m0"><a href="hacQdSc7Y28">GURAME ASAM PEDAS</a></div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="row inner m0">
+                                            <div class="preview_img">
+                                                <img src="img/resep4.jpg" alt="" class="preview">
+                                                <a href="DVkred30r0g" class="play-btn"></a>
+                                            </div>
+                                            <div class="title_row row m0"><a href="DVkred30r0g">Fettucini Carbonara</a></div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="extra_pages_icon"></span>Halaman lain
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="signup-popup.html">Sign Up</a></li>
+                            <li><a href="single-video.html">Single Video</a></li>
+                            <li><a href="page-author.html">Auther Profile</a></li>
+                            <li><a href="category.html">Category Page</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->            
+            <ul class="nav navbar-nav navbar-right login_drop">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="login_icon"></span> Akun Saya
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="signup-popup.html">Sign Up</a></li>
+                        <li><a href="page-author.html">Auther Profile</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.container-fluid -->
+    </nav> <!--Navigation-->
+    
+    <section class="row page_cover">
+        <div class="container">
+            <div class="row m0">
+                <h1>Postingan saya</h1>
+                <ol class="breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li class="active">Boleh dilihat lebih dekat</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    
+    <section class="row">
+        <ul class="nav nav-justified ribbon">
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </section> <!--Ribbon-->
+    
+    <section class="row post_page_sidebar post_page_sidebar1">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9 post_page_uploads">
+                    <div class="author_details post_details row m0">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" name="iframe" width="100%" height="400" id="iframe" src="https://www.youtube.com/embed/I7o1oObQlog"></iframe>
+                        </div>
+                        <div class="row post_title_n_view" id="judul">
+                            <h2 class="col-sm-8 post_title" name="titlevideo" id="judul">Resep Sehat Dan Enak Buat Keluarga</h2>
+                            <h2 class="col-sm-4 view_count">3,45,346 <small>View</small></h2>
+                        </div>
+                        <div class="media bio_section">
+                            <div class="media-left about_social">
+                                <div class="row m0 section_row author_section widget widget_recommended_to_follow">
+                                    <div class="media">
+                                        <div class="media-left"><a href="page-author.html"><img src="img/me.jpg" alt="" class="circle"></a></div>
+                                        <div class="media-body media-middle">
+                                            <a href="page-author.html"><h5>Risa Fitria Melania</h5></a>
+                                            <div class="btn-group">
+                                                <a href="#" class="btn follower_count">34,000</a>
+                                                <a href="#" class="btn follow">follow</a>
+                                            </div>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                                <div class="row m0 social_section section_row">
+                                    <h5>Akun Medsos</h5>
+                                    <ul class="list-inline">
+                                        <li><a href="#"><img src="images/icons/social/1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/icons/social/2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/icons/social/3.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/icons/social/4.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/icons/social/5.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/icons/social/6.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/icons/social/7.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/icons/social/8.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/icons/social/9.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/icons/social/10.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/icons/social/11.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/icons/social/12.jpg" alt=""></a></li>
+                                    </ul>
+                                </div>
+                                <div class="row m0 about_section section_row single_video_info">
+                                    <dl class="dl-horizontal">
+                                        <dt>Tanggal Tayang:</dt>
+                                        <dd>Nopember 11, 2018</dd>
+                                        
+                                        <dt>Kategori:</dt>
+                                        <dd>Cara &amp; Memasak</dd>
+                                        
+                                        <dt>Hak Cipta Video</dt>
+                                        <dd>Saya Pribadi</dd>
+                                        
+                                        <dt>Upload ke:</dt>
+                                        <dd>Youtube</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="media-body author_desc_by_author">
+                                <p>Memasak merupakan suatu kegiatan yang sangat penting dalam kehidupan manusia, dan bisa dilakukan oleh siapa saja, baik laki-laki maupun perempuan.</p>
+                                <p>Tapi, di zaman yang serba instan ini, ternyata masih ada banyak perempuan yang mengabaikan pentingnya memiliki kemampuan memasak.</p>
+                                <p>Padahal, memasak itu bukan lagi sebatas mengolah bahan makanan menjadi menu yang siap disajikan, tapi justru memiliki manfaat lain yang gak kalah penting, apa aja sih?</p>
+                                <p>1. Penyelamat di kala rasa lapar melanda
+                                    <br>Alasan yang pertama ini pastinya udah gak terbantahkan lagi. Kemampuan memasak seseorang akan sangat berguna di saat rasa lapar datang, tak terkecuali juga untuk para wanita.<br>So, bisa memasak itu ternyata membantu banget dalam situasi seperti ini kan?</p>
+                                    <p>2. Sebagai kegiatan yang seru untuk berkreasi dan mencoba hal baru
+                                        <br>Memasak itu memang mirip dengan seni. Dengan memasak, setiap wanita pastinya bisa punya kegiatan positif untuk berkreasi dan mencoba menu-menu baru tanpa harus pergi ke restaurant mahal, lho!<br>Selain jadi kegiatan yang seru, pastinya irit kantong juga, kan?</p>
+                                    <p>3. Mengontrol setiap asupan dan nutrisi yang akan masuk ke dalam tubuh
+                                        <br>Dengan memasak makanan sendiri, pastinya kamu akan lebih tahu asupan dan nutrisi apa aja yang masuk ke dalam tubuhmu, sehingga kamu bisa menyesuaikannya dengan porsi yang benar-benar kamu butuhkan.</p>
+                                    <p>4. Sebagai nilai plus kamu di mata calon mertua
+                                        <br>Yang satu ini juga gak kalah penting. Kemampuan memasak seorang wanita biasanya jadi salah satu indikator penting bagi calon mertua untuk menilai calon menantunya.<br>Nah, jika kamu bisa masak, pastinya hal itu akan menjadi suatu kelebihan yang bisa kamu banggakan di depan mereka, kan?</p>
+                                    <p>5. Agar bisa memasak untuk suami dan anakmu kelak
+                                        <br>Salah satu tugas mulia seorang ibu rumah tangga adalah memasak untuk suami dan anak-anaknya kelak.<br>Setiap wanita memang gak harus jago masak seperti chef-chef di luar sana, kok! Kemampuan masak yang sangat dasar pun setidaknya akan membuat kamu bisa diandalkan oleh keluargamu. Bahkan, hal itu bisa jadi ciri khas untuk membuat keluargamu selalu merindukan masakan rumah buatanmu, lho!</p>
+                                    <p>6. Bisa menjadi peluang karier dan bisnis yang menjanjikan
+                                        <br>Peluang bisnis bisa datang dari hal apa saja, termasuk dalam hal memasak.<br>Jika kamu bisa atau bahkan jago masak, kesempatanmu untuk berkarier dan berbisnis di bidang kuliner pastinya akan terbuka lebar, kan?<br>Kamu pun bisa bekerja dengan skill memasak yang kamu miliki, atau bahkan merintis usaha yang berkaitan dengan kemampuan mengolah makanan dengan kreatif.
+                                        <br><br>
+                                    Tuh kan, ada banyak banget manfaat yang bisa didapatkan dari skill memasak. Apalagi jika kamu seorang perempuan, manfaatnya pasti akan jauh lebih berharga untukmu, baik di masa sekarang maupun masa depan. So, gak ada alasan lagi deh untuk ragu mengasah skill memasakmu dari sekarang!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row m0 comments">
+                        <h5 class="comment_count">37 Komentar:</h5>
+                        <div class="media comment">
+                            <div class="media-left"><a href="#"><img src="images/follow/4.jpg" alt="" class="img-circle"></a></div>
+                            <div class="media-body">
+                                <div class="comment_header">
+                                    <h5>
+                                        <a href="#" class="author_name">Agista Novia</a>
+                                        <span class="time_ago">10 minutes ago</span>
+                                        <a href="#" class="reply_link">Jawab</a>
+                                    </h5>                                    
+                                </div>
+                                <p>Mauuuuuuuuuuuuuuuuuuuuu.</p>
+                                <div class="media comment comment_reply">
+                                    <div class="media-left"><a href="#"><img src="img/me.jpg" alt="" class="img-circle" width="35%"></a></div>
+                                    <div class="media-body">
+                                        <div class="comment_header">
+                                            <h5>
+                                                <a href="#" class="author_name">Risa Fitria Melania</a>
+                                                <span class="time_ago">10 minutes ago</span>
+                                                <a href="#" class="reply_link">Jawab</a>
+                                            </h5>                                    
+                                        </div>
+                                        <p>Terimakasih telah mengunjungi halman kami. Selamat mencoba:) </p>
+                                    </div>
+                                </div> <!--Comment Reply-->
+                            </div>
+                        </div> <!--Comment-->
+                        <div class="media comment">
+                            <div class="media-left"><a href="#"><img src="images/follow/4.jpg" alt="" class="img-circle"></a></div>
+                            <div class="media-body">
+                                <div class="comment_header">
+                                    <h5>
+                                        <a href="#" class="author_name">Dila Sadiah</a>
+                                        <span class="time_ago">10 minutes ago</span>
+                                        <a href="#" class="reply_link">Jawab</a>
+                                    </h5>                                    
+                                </div>
+                                <p>Suka Suka, saya sudah coba, hasilnya ummm yummy</p>
+                                <div class="media comment comment_reply">
+                                    <div class="media-left"><a href="#"><img src="img/me.jpg" alt="" class="img-circle" width="75%"></a></div>
+                                    <div class="media-body">
+                                        <div class="comment_header">
+                                            <h5>
+                                                <a href="#" class="author_name">Risa Fitria Melania</a>
+                                                <span class="time_ago">10 minutes ago</span>
+                                                <a href="#" class="reply_link">Jawab</a>
+                                            </h5>                                    
+                                        </div>
+                                        <p>Terimakasih telah mengunjungi halaman kami. Selamat mencoba:)  </p>
+                                    </div>
+                                </div> <!--Comment Reply-->
+                            </div>
+                        </div> <!--Comment-->
+                    </div>
+                    <form action="#" class="row m0 comment_form">
+                        <h5>kirim komentar anda:</h5>
+                        <textarea class="form-control"></textarea>
+                        <input type="submit" value="Ya Submit" class="btn btn default">
+                    </form>
+                </div>
+                <div class="col-sm-3 sidebar sidebar2">
+                    <div class="row m0 sidebar_row_inner">
+                        <!--Search Form-->
+                        <form action="#" role="search" class="search_form row m0 widget widget_search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Pencarian disini" >
+                                <span class="input-group-addon"><button type="submit"><img src="images/icons/search.png" alt=""></button></span>
+                            </div>
+                        </form>
+                        <!--pesan sponsor anda-->
+                        <div class="row m0 widget widget_sponsored_area">
+                            <h5 class="widget_title">Bingung Harus Bikin Menu Apa? Yuk Intip Terus Channel Ini!</h5>
+                            <div class="row m0 inner">
+                                <div class="row m0 advertise_betweeen_uploads">
+                                    <div class="inner row m0">
+                                        <h3>Makan Enak Makan Sehat</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--lainnya dari saya-->
+                        <div class="row m0 widget widget_popular_videos">
+                            <h5 class="widget_title">lainnya dari saya</h5>
+                            <div class="row m0 inner">
+                                <div class="media" id="playlist">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!--Uploads-->
+    
+    <section class="row">
+        <ul class="nav nav-justified ribbon">
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </section> <!--Ribbon-->
+    
+    <footer class="row">
+        <div class="container">
+            <div class="row sidebar sidebar_footer">
+                <div class="col-sm-3 widget widget1 w_in_footer widget_about">
+                    <h5 class="widget_title">Tentang Video Saya</h5>
+                    <div class="row m0 inner">
+                        <a href="index.html"><img src="img/logo.jpg" alt="" width="75%"></a><br>
+                        <p>Variasi makanan sangatlah diperlukan. Pasalnya, setiap makanan yang disantap memiliki kandungan vitamin, mineral dan bahan aktif lain yang berbeda-beda. Semua kandungan bahan aktif ini dibutuhkan tubuh untuk melakukan proses metabolisme. <br> Tak adanya variasi makanan akan menyebabkan 'menumpuknya' satu atau beberapa jenis vitamin dan mineral dalam tubuh. Sedangkan jenis mineral dan vitamin lain yang tak bisa dibentuk tubuh tidak tercukupi karena tak ada asupan dari varian makanan lainnya. Lama-kelamaan hal ini akan menyebabkan tubuh jadi kekurangan vitamin dan mineral atau defisiensi vitamin dan mineral. <br>"Idealnya makanan yang paling tepat itu punya menu yang berbeda saat pagi, siang dan malam." <br>Konsumsi makanan yang bervariasi juga akan membantu untuk mencegah kebosanan terhadap jenis makanan yang itu-itu saja.</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 widget widget2 w_in_footer widget_subscribe">
+                    <h5 class="widget_title">berlangganan video saya</h5>
+                    <div class="row m0 inner">
+                        <form action="#" class="row m0" method="post">
+                            <input type="email" class="form-control" placeholder="Enter Email Address">
+                            <input type="submit" value="Ya Submit" class="form-control btn btn-default">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-3 widget widget3 w_in_footer widget_tags">
+                    <h5 class="widget_title">tags populer</h5>
+                    <div class="row m0 inner">
+                        <a href="#" class="tag">Resep Chicken Katsu</a>
+                        <a href="#" class="tag">SPAGHETTI BOLOGNESE</a>
+                        <a href="#" class="tag">GURAME ASAM PEDAS MANIS</a>
+                        <a href="#" class="tag">Fettucini Carbonara</a>
+                        <a href="#" class="tag">ICE MILO CAKE</a>
+                        <a href="#" class="tag">PUDDING SILKY MANGGA</a>
+                        <a href="#" class="tag">DISSERT</a>
+                        <a href="#" class="tag">SEAFOOD</a>
+                        <a href="#" class="tag">Puding Lumut Coklat</a>
+                        <a href="#" class="tag">Pempek Enak Lezat</a>
+                        <a href="#" class="tag">Cemilan</a>
+                        <a href="#" class="tag">Minuman Segar</a>
+                    </div>
+                </div>
+                <div class="col-sm-3 widget widget4 w_in_footer widget_twitter">
+                    <h5 class="widget_title">@insta feed</h5>
+                    <div class="row m0 inner">
+                        <div class="row m0 tweet"><a href="#">@risafitriam746@gmail.com:</a>How to make cake</div>
+                        <div class="row m0 tweet"><a href="#">@risafitriam746@gmail.com:</a>How to make a drink</div>
+                        <div class="row m0 tweet"><a href="#">@risafitriam746@gmail.com:</a>How to make dissert</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>    
+ </body>
+
+<!-- Mirrored from uxart.io/downloads/metavideo-html/single-video.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Nov 2018 02:15:44 GMT 
+
+0. Resep Chicken Katsu Sehat Dan Enak Buat Keluarga Ala Dapur Mama Tien
+https://www.youtube.com/watch?v=I7o1oObQlog
+
+SPICY CHICKEN WINGS ALA DAPUR MAMA TIEN
+https://www.youtube.com/watch?v=hvAn3Xj-PMA
+2. SPAGHETTI BOLOGNESE ALA DAPUR MAMA TIEN
+https://www.youtube.com/watch?v=DIGeQUsx3eo
+3. GURAME ASAM PEDAS MANIS ALA DAPUR MAMA TIEN
+https://www.youtube.com/watch?v=hacQdSc7Y28
+4. Fettucini Carbonara Ala Dapur Mama Tien
+https://www.youtube.com/watch?v=DVkred30r0g
+5. PUDDING SILKY MANGGA ALA DAPUR MAMA TIEN
+https://www.youtube.com/watch?v=Wm_5H7MMQ0U
+6. SAPI LADA HITAM ALA DAPUR MAMA TIEN
+https://www.youtube.com/watch?v=FWNkIhfpUNU
+7. ICE MILO CAKE EKONOMIS ALA DAPUR MAMA TIEN
+https://www.youtube.com/watch?v=A2A5RGzJbUc
+8. Pudding Susu Oreo Fla Coklat Ala Dapur Mama Tien
+https://www.youtube.com/watch?v=zTbdZQNcV0c
+9. Puding Lumut Coklat Ala Dapur Mama Tien
+https://www.youtube.com/watch?v=N0ID14IwYoE
+10. Pempek Enak Lezat Ala Dapur Mama Tien
+https://www.youtube.com/watch?v=WHjPbzKdjt0
+
+-->
+</html>
