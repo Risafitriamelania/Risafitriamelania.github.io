@@ -1,0 +1,100 @@
+{
+	"Shop" :
+		[
+			{
+				"img" : "assets/images/1.jpg",
+				"nama": "Lampu Tidur Jamur",
+				"harga": "Rp.14.500,-",
+				"rating": "assets/images/rating.jpg",
+				"penjual": "Gerry Gokil",
+				"asal": "Jakarta Timur"
+			},
+			{
+				"img" : "assets/images/2.jpg",
+				"nama": "Microphone Wireless WS 858 Bluetooth",
+				"harga": "Rp.94.000,-",
+				"rating": "assets/images/rating.jpg",
+				"penjual": "Sunshine Corona",
+				"asal": "Jakarta Timur"
+			},
+			{
+				"img" : "assets/images/3.jpg",
+				"nama": "Lampu Tidur Sensor Cahaya",
+				"harga": "Rp.14.500,-",
+				"rating": "assets/images/rating.jpg",
+				"penjual": "NSM Store",
+				"asal": "Jakarta Selatan"
+			},
+			{
+				"img" : "assets/images/4.jpg",
+				"nama": "USB Bluetooth Music Receiver Mobil",
+				"harga": "Rp.21.000,-",
+				"rating": "assets/images/rating.jpg",
+				"penjual": "NSM Store",
+				"asal": "Jakarta Selatan"
+			},
+			{
+				"img" : "assets/images/5.jpg",
+				"nama": "Dr. Browns Tummy Grumble Reusable",
+				"harga": "Rp.110.000,-",
+				"rating": "assets/images/rating.jpg",
+				"penjual": "Dr. Browns Office",
+				"asal": "Jakarta Barat"
+			},
+			{
+				"img" : "assets/images/6.jpg",
+				"nama": "EAU DE COLOGNE SECRET AFFAIR",
+				"harga": "Rp.69.300,-",
+				"rating": "assets/images/rating.jpg",
+				"penjual": "Senswell",
+				"asal": "Tanggerang"
+			}
+			{
+				"img" : "assets/images/24.jpg",
+				"nama": "Power Bank Xiaomi Slim Pro 10000 mAh",
+				"harga": "Rp.97.800,-",
+				"rating": "assets/images/rating.jpg",
+				"penjual": "Revolution Technic",
+				"asal": "Jakarta Utara"
+			},
+			{
+				"img" : "assets/images/23.jpg",
+				"nama": "Timbangan Badan Kaca Elektronik",
+				"harga": "Rp.179.900,-",
+				"rating": "assets/images/rating.jpg",
+				"penjual": "Markas Gadget",
+				"asal": "Jakarta Barat"
+			},
+			{
+				"img" : "assets/images/13.jpg",
+				"nama": "Jfashion Chiffon Blouse With Mote",
+				"harga": "Rp.36.000,-",
+				"rating": "assets/images/rating.jpg",
+				"penjual": "Jfashion",
+				"asal": "Jakarta Barat"
+			},
+			{
+				"img" : "assets/images/21.jpg",
+				"nama": "Bioaqua Make Up Profesional Dazzling",
+				"harga": "Rp.29.900,-",
+				"rating": "assets/images/rating.jpg",
+				"penjual": "Keira Shop",
+				"asal": "Jakarta Timur"
+			},
+			{
+				"img" : "assets/images/8.jpg",
+				"nama": "Moko Moko Sugar Lips Lipstick",
+				"harga": "Rp.59.900,-",
+				"rating": "assets/images/rating.jpg",
+				"penjual": "Moko Moko",
+				"asal": "Jakarta Pusat"
+			},
+			{
+				"img" : "assets/images/7.jpg",
+				"nama": "Lampu Taman LED Tenaga Solar",
+				"harga": "Rp.28.500,-",
+				"rating": "assets/images/rating.jpg",
+				"penjual": "Hivi Store",
+				"asal": "Cilegon"
+			}
+	]

@@ -1,0 +1,815 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Al",
+				"AlbumBTS"
+			],
+			[
+				"a",
+				"album"
+			],
+			[
+				"AL",
+				"AlbumBTS"
+			],
+			[
+				"A",
+				"AlbumBTS"
+			],
+			[
+				"str",
+				"strjson"
+			],
+			[
+				"ge",
+				"genre"
+			],
+			[
+				"arr",
+				"arrmhs"
+			],
+			[
+				"s",
+				"showList"
+			],
+			[
+				"lis",
+				"listMahasiswa"
+			],
+			[
+				"cli",
+				"clickAdd"
+			],
+			[
+				"im",
+				"imgpth"
+			],
+			[
+				"va",
+				"val"
+			],
+			[
+				"i",
+				"img\tTag"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"b",
+				"black"
+			],
+			[
+				"DOC",
+				"document"
+			],
+			[
+				"menu",
+				"menu2"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"BO",
+				"border\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"ma",
+				"mahasiswadecl"
+			],
+			[
+				"nama",
+				"nama"
+			],
+			[
+				"na",
+				"nama"
+			],
+			[
+				"naam",
+				"namamahasiwa"
+			],
+			[
+				"parameter",
+				"parameterlist"
+			],
+			[
+				"e",
+				"Expression"
+			],
+			[
+				"t",
+				"tbody\tTag"
+			],
+			[
+				"S",
+				"sumedang"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"h",
+				"h3\tTag"
+			],
+			[
+				"tab",
+				"tab_id"
+			],
+			[
+				"in",
+				"inherit\tdisplay"
+			],
+			[
+				"bac",
+				"background\tproperty"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"fo",
+				"font-family\tproperty"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"d",
+				"disabled"
+			],
+			[
+				"v",
+				"val"
+			],
+			[
+				"c",
+				"click"
+			],
+			[
+				"nam",
+				"name"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"al",
+				"text-align\tproperty"
+			],
+			[
+				"cek",
+				"cekbok"
+			],
+			[
+				"ele",
+				"elments"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"fi",
+				"fieldset1"
+			],
+			[
+				"fie",
+				"fieldset1"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"bo",
+				"bold\tfont-weight"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"bol",
+				"bolder\tfont-weight"
+			],
+			[
+				"bord",
+				"border-top\tproperty"
+			],
+			[
+				"marg",
+				"margin-right\tproperty"
+			],
+			[
+				"il",
+				"inline-block\tdisplay"
+			],
+			[
+				"her",
+				"header"
+			],
+			[
+				"x",
+				"x-small\tfont-size"
+			],
+			[
+				"cl",
+				"clear\tproperty"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"hilda",
+				"hildap"
+			],
+			[
+				"hila",
+				"hildap"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"tdk",
+				"tdk"
+			],
+			[
+				"get",
+				"getValName"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"fl",
+				"float\tproperty"
+			],
+			[
+				"jen",
+				"jenis5"
+			],
+			[
+				"jeni",
+				"jenis3"
+			],
+			[
+				"je",
+				"jenis2"
+			],
+			[
+				"j",
+				"jenis1"
+			],
+			[
+				"jenis",
+				"jenis3"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"bak",
+				"background-color\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"o",
+				"option\tTag"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"font",
+				"font\tproperty"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"buk",
+				"buku_id"
+			],
+			[
+				"Ju",
+				"judul_buku"
+			],
+			[
+				"f",
+				"form-group"
+			],
+			[
+				"jud",
+				"judul_buku"
+			],
+			[
+				"exp",
+				"exp_pengembalian"
+			],
+			[
+				"ang",
+				"anggota_id"
+			],
+			[
+				"Ang",
+				"anggota_id"
+			],
+			[
+				"col",
+				"col-sm-5"
+			],
+			[
+				"pe",
+				"Peminjaman"
+			],
+			[
+				"mas",
+				"master_peminjaman"
+			],
+			[
+				"crea",
+				"created_date"
+			],
+			[
+				"is",
+				"isunique"
+			],
+			[
+				"en",
+				"enableField"
+			],
+			[
+				"ka",
+				"kategori_id"
+			],
+			[
+				"set",
+				"setBlank"
+			],
+			[
+				"ret",
+				"ret_arr"
+			],
+			[
+				"id",
+				"id_val"
+			],
+			[
+				"the",
+				"theid"
+			],
+			[
+				"lov",
+				"lov_display"
+			],
+			[
+				"kat",
+				"kategori_display"
+			],
+			[
+				"kate",
+				"kategori_id"
+			],
+			[
+				"base",
+				"base_url"
+			],
+			[
+				"loa",
+				"loadLOV"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"kateg",
+				"kategori_id"
+			],
+			[
+				"valid",
+				"valid_until"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"ex",
+				"expDate"
+			],
+			[
+				"esca",
+				"escape"
+			],
+			[
+				"kategori",
+				"kategori_nama"
+			],
+			[
+				"act",
+				"actionType"
+			],
+			[
+				"re",
+				"redirect"
+			],
+			[
+				"reco",
+				"record"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"con",
+				"continue"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 245.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/RISA/WEB/Book/Book.html",
+		"/C/Users/User/Documents/adelianft/JSON/latihan.json",
+		"/E/RISA/WEB/web/Latihan_yt_API.html",
+		"/C/Users/User/Documents/adelianft/web/tugas.video.bkm/index.html",
+		"/C/Users/User/Documents/adelianft/JSON/album_xml.html",
+		"/C/Users/User/Documents/adelianft/web/youtube_API.html",
+		"/C/Users/User/Documents/adelianft/JSON/latihanjson.html",
+		"/C/Users/User/Documents/adelianft/JSON/LATIHAN.HTML",
+		"/E/MAPEL/AdeliaNF WEB/Mahasiswa/my.js",
+		"/E/WEB/JSON/latihanjson.html",
+		"/E/MAPEL/AdeliaNF WEB/Mahasiswa/stylemhs.css",
+		"/C/Users/User/Documents/adelianft/web/youtube_jadul.html",
+		"/C/Users/User/Documents/adelianft/JSON/latihanXML.xml",
+		"/F/HILDA DWI/TugasLayoutDiv/TugasFormMahasiswa/Regis.js",
+		"/F/HILDA DWI/TugasLayoutDiv/TugasFormMahasiswa/FormMahasiswa.html",
+		"/E/HTML/Form Mahasiswa/regis.js",
+		"/E/HTML/Form Mahasiswa/form.htm",
+		"/E/MAPEL/AdeliaNF WEB/Adelia Nur Fitriani A101-081901/TUGAS 2 Adelia Nur Fitriani_A101-081901/barang.htm",
+		"/E/MAPEL/AdeliaNF WEB/JSON/album.json",
+		"/E/MAPEL/AdeliaNF WEB/JSON/album.html",
+		"/E/MAPEL/AdeliaNF WEB/Latihanfunctionjavascript/functionjavvascript.html",
+		"/E/MAPEL/AdeliaNF WEB/JQUERY/TABS INPUT OUTPUT - Adelia Nur Fitriani/tabsinputoutput.js",
+		"/E/MAPEL/AdeliaNF WEB/JQUERY/TABS INPUT OUTPUT - Adelia Nur Fitriani/tabsinput.html",
+		"/E/MAPEL/AdeliaNF WEB/JQUERY/formjquery.css",
+		"/E/MAPEL/assets-soal-nomor-15/tabs-with-js.htm",
+		"/E/MAPEL/assets-soal-nomor-14/practise-menu-UTS.htm",
+		"/E/MAPEL/AdeliaNF WEB/UTS/lat2.html",
+		"/E/MAPEL/AdeliaNF WEB/UTS/lat.html",
+		"/E/MAPEL/AdeliaNF WEB/UTS/style.css",
+		"/E/MAPEL/assets-soal-nomor-14/menu-nav.css",
+		"/E/MAPEL/AdeliaNF WEB/UTS/css.css",
+		"/E/MAPEL/AdeliaNF WEB/latVARIABLE/latihanvariable.html",
+		"/E/MAPEL/AdeliaNF WEB/latVARIABLE/bootstrap-theme.min.css",
+		"/E/MAPEL/AdeliaNF WEB/LATIHAN/latihan_div.html",
+		"/E/MAPEL/AdeliaNF WEB/latVARIABLE/jquery-bootgrid-master/demo/index.htm",
+		"/E/MAPEL/AdeliaNF WEB/JQUERY/FORMQUERY - Adelia Nur Fitriani/belajarquery2.html",
+		"/E/MAPEL/AdeliaNF WEB/JQUERY/latihantabsjquery.html",
+		"/E/MAPEL/AdeliaNF WEB/JQUERY/jquery.html",
+		"/E/MAPEL/AdeliaNF WEB/LatUTS/testjquery.html",
+		"/E/MAPEL/AdeliaNF WEB/latVARIABLE/gridjquery.html",
+		"/E/MAPEL/AdeliaNF WEB/JQUERY/TABS INPUT OUTPUT - Adelia Nur Fitriani/tabsquery.js",
+		"/E/MAPEL/AdeliaNF WEB/latVARIABLE/jquery-bootgrid-master/demo/gridjquery.html",
+		"/E/MAPEL/AdeliaNF WEB/JSON/demo.css",
+		"/E/MAPEL/AdeliaNF WEB/JSON/XML.xml",
+		"/E/MAPEL/AdeliaNF WEB/latVARIABLE/variablejs.js",
+		"/E/MAPEL/AdeliaNF WEB/JQUERY/TABS INPUT OUTPUT/tabsquery.js",
+		"/E/MAPEL/AdeliaNF WEB/JQUERY/TABS INPUT OUTPUT/tabsinputouput.html",
+		"/E/MAPEL/AdeliaNF WEB/LatUTS/gridjquery.html",
+		"/E/MAPEL/AdeliaNF WEB/latVARIABLE/jquery-bootgrid-master/demo/testjquery.html",
+		"/E/MAPEL/AdeliaNF WEB/JQUERY/tabsquery.js",
+		"/E/MAPEL/AdeliaNF WEB/JQUERY/TABS INPUT OUTPUT/tabsinputoutput.js",
+		"/E/MAPEL/AdeliaNF WEB/JQUERY/tabsjquery.css",
+		"/E/MAPEL/AdeliaNF WEB/JQUERY/latihanTabs.html",
+		"/C/Users/User/Pictures/baru/index.html",
+		"/E/MAPEL/AdeliaNF WEB/Praktek login/pajak.html",
+		"/E/MAPEL/AdeliaNF WEB/TUGAS FORM/Formulir.html",
+		"/E/MAPEL/AdeliaNF WEB/Praktek login/index.html",
+		"/E/MAPEL/AdeliaNF WEB/JQUERY/belajarformquery.html",
+		"/E/MAPEL/AdeliaNF WEB/JQUERY/belajarquery2.html",
+		"/E/MAPEL/AdeliaNF WEB/TUGAS-web/CodePolitan AdeliaNurFitriani_A101-081901/style.css",
+		"/E/MAPEL/AdeliaNF WEB/TUGAS-web/CodePolitan AdeliaNurFitriani_A101-081901/home.html",
+		"/C/Users/User/Videos/Tugas Formulir RIpal/New folder (2)/style.css",
+		"/C/Users/User/3D Objects/WEEK 5- 6/simple-vertical-nav.htm",
+		"/C/Users/User/3D Objects/latihan form.html",
+		"/C/Users/User/Pictures/Tugas Ripal_A101-081918/Tugas Layout Div Ripal_A101-081918/Tugas Layout Div Ripal.html",
+		"/C/Users/User/Videos/Tugas Formulir RIpal/New folder (2)/grid.html",
+		"/C/Users/User/3D Objects/WEEK 5- 6/menu.css",
+		"/C/Users/User/3D Objects/WEEK 5- 6/latihan-table-buku.htm",
+		"/C/Users/User/Videos/Tugas Formulir RIpal/Formulir Pejabat.html",
+		"/C/Users/User/Pictures/Tugas/Tugas Layout Div Ripal/Tugas Layout Div Ripal.html",
+		"/D/Data Nasrul/Web Pemrograman/Latihan1.htm",
+		"/C/Users/User/Videos/TUGAS RIPAL/practice.html",
+		"/C/Users/User/Videos/latihan-div-layout.html",
+		"/C/Users/User/Music/Div Ripal/index.html",
+		"/C/Users/User/Pictures/div.html",
+		"/C/Users/User/Music/TUGAS RIPAL/Tugas Table Ripal/Tugas Tabel Ripal.html",
+		"/C/Users/User/Music/TUGAS RIPAL/Tugas Table Ripal/style.css",
+		"/C/Users/User/Music/TUGAS RIPAL/Tugas WEB/index.html",
+		"/C/Users/User/Music/TUGAS RIPAL/Practice Ripal/practice.html",
+		"/C/Users/User/Videos/TUGAS RIPAL/style.css",
+		"/C/Users/User/Music/TUGAS RIPAL/Tugas WEB/style.css",
+		"/C/Users/User/Music/TUGAS RIPAL/Practice Ripal/style.css",
+		"/C/Users/User/Music/TUGAS RIPAL/Tugas Table Ripal/Tugas Tabel.html",
+		"/E/Tugas Table Ripal/Tugas Table Pak Rendi.html",
+		"/C/Users/User/Music/TUGAS RIPAL/Practice Ripal/us.css",
+		"/C/Users/User/Music/TUGAS RIPAL/Practice/practice.html",
+		"/D/Data Nasrul/Web Pemrograman/NasrulRamadhan_A101-081915.htm",
+		"/D/Data Nasrul/Web Pemrograman/New folder/Tugas Table.htm",
+		"/C/Users/User/Music/TUGAS RIPAL/Ripal_A101-081918.html",
+		"/C/Users/User/Music/TUGAS RIPAL/Ripal.html",
+		"/D/Data Nasrul/Web Pemrograman/New folder/a.css",
+		"/C/Users/User/Music/TUGAS RIPAL/LatihanBag2.html",
+		"/D/Data Nasrul/Web Pemrograman/Tugas Table.htm",
+		"/D/Data Nasrul/Web Pemrograman/a.htm",
+		"/D/Data Nasrul/Web Pemrograman/Table.css",
+		"/D/Data Nasrul/Tugas/Nasrul Ramadhan.htm",
+		"/D/Data Nasrul/Web Pemrograman/Table Kucing Tugas Minggu Depan.htm",
+		"/D/Data Nasrul/Web Pemrograman/Latihan2.htm",
+		"/D/Data Nasrul/Web Pemrograman/Latihan3.htm",
+		"/D/Data Nasrul/Web Pemrograman/latihan tabel.htm",
+		"/D/Data Nasrul/Tugas/tugas Nasrul.htm",
+		"/D/Data Nasrul/ddddd.htm",
+		"/E/TUGAS-web/tugas 1 html - 25-08-2019/tugas1.htm",
+		"/D/Data Nasrul/Web Pemrograman/asd.htm",
+		"/D/Data Nasrul/Lathian Web Programmer.html",
+		"/D/Data Nasrul/latihan.html",
+		"/D/Data Nasrul/index.html",
+		"/C/insert data table.html",
+		"/C/xampp/htdocs/perpus_bkm/application/controllers/Kategori.php",
+		"/C/xampp/htdocs/perpus_bkm/application/controllers/Buku.php",
+		"/C/xampp/htdocs/perpus_bkm/application/views/lov/lov_buku.php",
+		"/C/xampp/htdocs/perpus_bkm/application/views/master_peminjaman/edit.php",
+		"/C/xampp/htdocs/mobile_apps/updateuserjson.php",
+		"/C/xampp/htdocs/Agera/hapususerjson.php",
+		"/C/xampp/htdocs/Agera/p_user_js.php",
+		"/C/xampp/htdocs/Agera/p_user_json.php",
+		"/C/xampp/htdocs/Agera/updateuserjson.php",
+		"/C/xampp/htdocs/Agera/tambahuserjson.php",
+		"/C/xampp/htdocs/Agera/tambahuser_xml.php",
+		"/C/xampp/htdocs/Agera/semuauserjson.php",
+		"/C/xampp/htdocs/mobile_apps/semuauserjson.php",
+		"/C/xampp/htdocs/perpus_bkm/application/models/master/M_anggota.php",
+		"/C/xampp/htdocs/perpus_bkm/application/controllers/Anggota.php",
+		"/C/xampp/htdocs/perpus_bkm/application/views/master_peminjaman/add.php",
+		"/C/xampp/htdocs/perpus_bkm/application/controllers/Master_peminjaman.php",
+		"/C/xampp/htdocs/perpus_bkm/application/models/transaksi/M_master_peminjaman.php",
+		"/C/xampp/htdocs/perpus_bkm/application/views/anggota/index.php",
+		"/C/xampp/htdocs/perpus_bkm/application/views/buku/add.php"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jquery-3.4.1.min.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\User\\Videos\\Tugas Formulir RIpal\\Formulir Pejabat.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 107.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

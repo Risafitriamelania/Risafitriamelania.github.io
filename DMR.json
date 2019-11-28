@@ -1,0 +1,123 @@
+{
+	"data" : [
+		{
+			"img" : "assets/images/mydapur/1.jpg",
+			"nama" : "Paket Nasi Sapo Tahu",
+			"harga" : "Rp. 20.000,-",
+			"min" : "Min : 20 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/2.jpg",
+			"nama" : "Paket Ayam Bakar Java",
+			"harga" : "Rp. 20.000,-",
+			"min" : "Min : 20 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/3.jpg",
+			"nama" : "Paket Hemat",
+			"harga" : "Rp. 20.000,-",
+			"min" : "Min : 10 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/4.jpg",
+			"nama" : "Paket Ayam Goreng",
+			"harga" : "Rp. 20.000,-",
+			"min" : "Min : 20 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/5.jpg",
+			"nama" : "Ayam Saos Teriyaki",
+			"harga" : "Rp. 20.000,-",
+			"min" : "Min : 20 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/6.jpg",
+			"nama" : "Paket Hemat Ayam Bakar",
+			"harga" : "Rp. 20.000,-",
+			"min" : "Min : 10 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/7.jpg",
+			"nama" : "Paket Ayam Geprek",
+			"harga" : "Rp. 20.000,-",
+			"min" : "Min : 20 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/8.jpg",
+			"nama" : "Paket Java Nasi Kuning",
+			"harga" : "Rp. 20.000,-",
+			"min" : "Min : 20 pax"
+		},{
+			"img" : "assets/images/mydapur/9.jpg",
+			"nama" : "Paket Ayam Tomat Cabai Hijau",
+			"harga" : "Rp. 20.000,-",
+			"min" : "Min : 20 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/10.jpg",
+			"nama" : "Paket Nasi Kuning Ayam Serundeng",
+			"harga" : "Rp. 20.000,-",
+			"min" : "Min : 20 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/11.jpg",
+			"nama" : "Paket Ayam Bumbu Kemangi",
+			"harga" : "Rp. 20.000,-",
+			"min" : "Min : 20 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/12.jpg",
+			"nama" : "Paket Ikan Filet Saus Tomat",
+			"harga" : "Rp. 20.000,-",
+			"min" : "Min : 20 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/13.jpg",
+			"nama" : "Callifornia Egg Roll",
+			"harga" : "Rp. 20.000,-",
+			"min" : "Min : 20 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/14.jpg",
+			"nama" : "Egg Chicken Roll Bento",
+			"harga" : "Rp. 20.000,-",
+			"min" : "Min : 20 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/15.jpg",
+			"nama" : "Ayam Lada Hitam",
+			"harga" : "Rp. 20.000,-",
+			"min" : "Min : 20 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/16.jpg",
+			"nama" : "Nasi Uduk",
+			"harga" : "Rp. 11.000,-",
+			"min" : "Min : 20 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/17.jpg",
+			"nama" : "Nasi Ayam Kawul Kering",
+			"harga" : "Rp. 18.500,-",
+			"min" : "Min : 20 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/18.jpg",
+			"nama" : "Paket Java Telur Buncis",
+			"harga" : "Rp. 20.000,-",
+			"min" : "10 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/19.jpg",
+			"nama" : "Paket Ayam Goreng",
+			"harga" : "Rp. 20.000,-",
+			"min" : "10 pax"
+		},
+		{
+			"img" : "assets/images/mydapur/20.jpg",
+			"nama" : "Paket Hemat",
+			"harga" : "Rp. 20.000,-",
+			"min" : "10 pax"
+		}
+	]
+}
