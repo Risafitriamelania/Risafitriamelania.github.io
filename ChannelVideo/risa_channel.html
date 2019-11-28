@@ -43,14 +43,14 @@
     $(document).ready(function(){
         $.ajax({
                 url: 'yt.json',
-                type: 'POST',
+                type: 'GET',
                 dataType: "json",
                 success: function handledata(data){
                     // ke string dari fotmat json
                     var strjson = JSON.stringify(data);
 
                     for (var i=0; i<data.content.length; i++){
-                        $('#playlist').append("<div onclick=\"myfunction('"+data.content[i].judul+"')\">"+"<div class='media-left'><a target='iframe' href='https://www.youtube.com/embed/"+data.content[i].id+"'><img src='"+data.content[i].img+"' alt=''><span class='duration'>03:30</span></a></div><div class='media-body'><a target='iframe' href='https://www.youtube.com/embed/"+data.content[i].id+"'><h5>"+data.content[i].judul+"</h5></a><div class='row m0 meta_info views'>34,000 views</div><div class='row m0 meta_info posted'>1 year ago</div></div><br>");
+                        $('#playlist').append("<div onclick=\"myFunction('"+data.content[i].judul+"')\">"+"<div class='media-left'><a target='iframe' href='https://www.youtube.com/embed/"+data.content[i].id+"'><img src='"+data.content[i].img+"' alt=''><span class='duration'>03:30</span></a></div><div class='media-body'><a target='iframe' href='https://www.youtube.com/embed/"+data.content[i].id+"'><h5>"+data.content[i].judul+"</h5></a><div class='row m0 meta_info views'>34,000 views</div><div class='row m0 meta_info posted'>1 year ago</div></div><br>");
                     }
                 }
             });
